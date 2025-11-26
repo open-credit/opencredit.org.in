@@ -1,181 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OpenCredit - Open Source Credit Scoring Platform | Democratizing Credit in India</title>
-  <meta name="description" content="Transparent, UPI-based, open-source credit scoring platform for merchants, MSMEs, and consumers in India.">
-  <link rel="stylesheet" href="css/style.css"/>
-  <link rel="icon" href="assets/favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenCredit - Open Source Credit Scoring Platform</title>
+  <meta name="description" content="Transparent, UPI-based, open-source credit scoring engine for India. Democratizing credit for 63 million MSMEs.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primer/21.0.9/primer.css">
+  <style>
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+      background: #f6f8fa;
+      color: #24292e;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1012px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .header {
+      border-bottom: 1px solid #e1e4e8;
+      padding: 24px 0;
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+      color: #24292e;
+    }
+    .tagline {
+      font-size: 20px;
+      color: #586069;
+      margin-top: 8px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 20px;
+      margin-right: 8px;
+    }
+    .badge-open { background: #28a745; color: white; }
+    .badge-india { background: #0366d6; color: white; }
+    .stats {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin: 32px 0;
+    }
+    .stat {
+      background: white;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+      padding: 16px;
+      flex: 1;
+      min-width: 200px;
+    }
+    .stat h3 { margin: 0; font-size: 32px; color: #24292e; }
+    .stat p { margin: 4px 0 0; color: #586069; }
+    .markdown-body {
+      background: white;
+      padding: 40px;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+    }
+    .cta {
+      text-align: center;
+      margin: 48px 0;
+      padding: 32px;
+      background: #f1f8ff;
+      border-radius: 6px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 8px;
+    }
+    .btn-primary {
+      background: #2ea44f;
+      color: white;
+    }
+    .btn-outline {
+      border: 1px solid #1b1f23;
+      color: #24292e;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #586069;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
+<div class="container">
+
   <!-- Header -->
-  <header class="hero">
-    <div class="container">
-      <nav class="nav">
-        <div class="logo">
-          <h1>OpenCredit</h1>
-        </div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#impact">Impact</a></li>
-          <li><a href="#paper">Impact Paper</a></li>
-          <li><a href="https://github.com/opencredit" target="_blank">GitHub</a></li>
-          <li><a href="#contact" class="btn-primary">Get Involved</a></li>
-        </ul>
-      </nav>
-
-      <div class="hero-content">
-        <h1>Democratizing Access to Credit in India</h1>
-        <p class="tagline">Open-source • Transparent • UPI-based Credit Scoring Platform</p>
-        <p class="subtitle">Ending the ₹25 trillion MSME credit gap through radical transparency and open collaboration.</p>
-        <div class="hero-buttons">
-          <a href="#paper" class="btn-primary">Read Impact Paper v1.0</a>
-          <a href="https://github.com/opencredit" target="_blank" class="btn-secondary">Star on GitHub ⭐</a>
-        </div>
-      </div>
+  <div class="header">
+    <div>
+      <h1>OpenCredit</h1>
+      <div class="tagline">Open-source • Transparent • UPI-based credit scoring for India</div>
     </div>
-  </header>
-
-  <!-- Key Stats -->
-  <section class="stats">
-    <div class="container">
-      <div class="stat-grid">
-        <div class="stat">
-          <h3>₹25<span class="small">trillion</span></h3>
-          <p>MSME Credit Gap</p>
-        </div>
-        <div class="stat">
-          <h3>69%</h3>
-          <p>MSMEs with Unmet Credit Needs</p>
-        </div>
-        <div class="stat">
-          <h3>15.5<span class="small">B</span></h3>
-          <p>UPI Transactions / month (Mar 2025)</p>
-        </div>
-        <div class="stat">
-          <h3>100%</h3>
-          <p>Transparent Scoring Rules</p>
-        </div>
-      </div>
+    <div>
+      <span class="badge badge-open">Open Source</span>
+      <span class="badge badge-india">Made in India</span>
     </div>
-  </section>
+  </div>
 
-  <!-- Problem & Solution -->
-  <section class="section" id="about">
-    <div class="container">
-      <h2>The Problem</h2>
-      <p>63 million Indian MSMEs contribute 30% to GDP but only 14% have access to formal credit. Traditional scoring is opaque, biased, and excludes the informal sector.</p>
-      
-      <h2>The Solution: OpenCredit</h2>
-      <p>An open-source credit scoring engine that uses UPI transaction history to provide transparent, fair, and instant credit scores — visible to borrowers before they apply.</p>
-
-      <div class="features">
-        <div class="feature">
-          <h4>100% Transparent Algorithms</h4>
-          <p>All scoring rules are public on GitHub</p>
-        </div>
-        <div class="feature">
-          <h4>UPI-Powered Scoring</h4>
-          <p>Real business performance, not just paperwork</p>
-        </div>
-        <div class="feature">
-          <h4>Mandatory Disclosure</h4>
-          <p>Lenders must reveal any proprietary adjustments</p>
-        </div>
-        <div class="feature">
-          <h4>Competitive Marketplace</h4>
-          <p>Multiple lenders compete — borrowers win</p>
-        </div>
-      </div>
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat">
+      <h3>₹25T</h3>
+      <p>MSME Credit Gap in India</p>
     </div>
-  </section>
-
-  <!-- Projected Impact -->
-  <section class="section impact" id="impact">
-    <div class="container">
-      <h2>Projected Impact (5 Years)</h2>
-      <div class="impact-grid">
-        <div class="impact-card">
-          <h3>50 Million</h3>
-          <p>Merchants with transparent credit scores</p>
-        </div>
-        <div class="impact-card">
-          <h3>₹5 Trillion</h3>
-          <p>Additional credit to underserved segments</p>
-        </div>
-        <div class="impact-card">
-          <h3>40%</h3>
-          <p>Reduction in loan rejection rates</p>
-        </div>
-        <div class="impact-card">
-          <h3>30%</h3>
-          <p>Lower borrowing costs via competition</p>
-        </div>
-      </div>
+    <div class="stat">
+      <h3>69%</h3>
+      <p>MSMEs with unmet credit needs</p>
     </div>
-  </section>
-
-  <!-- Impact Paper Download -->
-  <section class="section paper" id="paper">
-    <div class="container">
-      <h2>Impact Paper v1.0 — November 2025</h2>
-      <p class="paper-subtitle">OPEN-SOURCE CREDIT SCORING PLATFORM: DEMOCRATIZING ACCESS TO CREDIT IN INDIA</p>
-      <p>A comprehensive 47-page vision document detailing the problem, solution, technical architecture, regulatory alignment, implementation roadmap, and global replication potential.</p>
-      
-      <div class="paper-actions">
-        <a href="https://github.com/opencredit/opencredit.github.io/raw/main/OpenCredit-Impact-Paper-v1.0.pdf" class="btn-primary large" download>
-          Download PDF (15,000 words)
-        </a>
-        <a href="https://github.com/opencredit" class="btn-secondary large" target="_blank">
-          View Full Paper on GitHub
-        </a>
-      </div>
-
-      <blockquote>
-        “Every honest merchant with a UPI QR code deserves transparent access to fair credit.”
-      </blockquote>
+    <div class="stat">
+      <h3>15.5B</h3>
+      <p>UPI transactions / month (Mar 2025)</p>
     </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="section cta" id="contact">
-    <div class="container">
-      <h2>Join the Movement</h2>
-      <p>We are developers, researchers, lenders, merchants, and citizens building a fairer financial system.</p>
-      
-      <div class="cta-grid">
-        <div>
-          <h4>Developers & Contributors</h4>
-          <p>Fork the repo, improve the scoring engine, build integrations.</p>
-          <a href="https://github.com/opencredit" target="_blank" class="btn-primary">Contribute on GitHub</a>
-        </div>
-        <div>
-          <h4>Lenders & Partners</h4>
-          <p>Be an early adopter. Access millions of credit-ready merchants.</p>
-          <a href="mailto:partners@opencredit.org.in" class="btn-primary">Partner With Us</a>
-        </div>
-        <div>
-          <h4>Press & Researchers</h4>
-          <p>Read the full paper. Quote. Cite. Build upon it.</p>
-          <a href="mailto:media@opencredit.org.in" class="btn-primary">Contact Us</a>
-        </div>
-      </div>
+    <div class="stat">
+      <h3>100%</h3>
+      <p>Transparent scoring rules</p>
     </div>
-  </section>
+  </div>
 
-  <!-- Footer -->
+  <!-- Main Content -->
+  <article class="markdown-body">
+    <h1>Open Source Credit Scoring Platform</h1>
+    <p><strong>Democratizing access to credit for 63 million merchants and MSMEs in India.</strong></p>
+
+    <hr>
+
+    <h2>Executive Summary</h2>
+    <p>Despite UPI processing <strong>₹23.5 trillion monthly</strong>, traditional credit scoring remains opaque, biased, and excludes millions of honest merchants.</p>
+    <p><strong>OpenCredit</strong> is an open-source credit assessment engine that uses UPI transaction history to generate transparent, auditable credit scores — visible to borrowers <em>before</em> they apply.</p>
+
+    <h3>Core Principles</h3>
+    <ul>
+      <li>100% open-source scoring algorithm (Apache 2.0)</li>
+      <li>UPI transaction data as primary signal</li>
+      <li>Mandatory disclosure of all lender adjustments</li>
+      <li>Multi-lender competitive marketplace</li>
+      <li>Borrower empowerment: see your score first</li>
+      <li>Full compliance with DPDP Act 2023 & RBI guidelines</li>
+    </ul>
+
+    <h3>Projected 5-Year Impact</h3>
+    <ul>
+      <li>50 million merchants gain transparent credit scores</li>
+      <li>₹5 trillion additional credit to underserved segments</li>
+      <li>40% reduction in rejection rates</li>
+      <li>30% lower borrowing costs via competition</li>
+    </ul>
+
+    <hr>
+
+    <h2>Impact Paper v1.0 (November 2025)</h2>
+    <p>A 47-page vision document detailing the crisis, solution, technical architecture, regulatory alignment, and global replication roadmap.</p>
+
+    <div class="cta">
+      <a href="https://github.com/opencredit/opencredit.github.io/raw/main/OpenCredit-Impact-Paper-v1.0.pdf" class="btn btn-primary" download>
+        Download Full Paper (PDF)
+      </a>
+      <a href="https://github.com/opencredit" class="btn btn-outline" target="_blank">
+        View on GitHub
+      </a>
+    </div>
+
+    <blockquote>
+      <p>“Every honest merchant with a UPI QR code deserves transparent access to fair credit.”</p>
+    </blockquote>
+
+    <hr>
+
+    <h2>Get Involved</h2>
+    <ul>
+      <li><strong>Developers:</strong> Contribute to the scoring engine → <a href="https://github.com/opencredit">github.com/opencredit</a></li>
+      <li><strong>Lenders:</strong> Early access to 50M+ credit-ready merchants → <a href="mailto:partners@opencredit.org.in">partners@opencredit.org.in</a></li>
+      <li><strong>Merchants:</strong> Check your future score (coming soon)</li>
+    </ul>
+
+    <p><strong>OpenCredit is not just a platform — it’s a movement for financial justice.</strong></p>
+  </article>
+
   <footer>
-    <div class="container">
-      <p>&copy; 2025 OpenCredit Initiative • Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
-      <p>
-        <a href="https://github.com/opencredit">GitHub</a> •
-        <a href="mailto:contact@opencredit.org.in">contact@opencredit.org.in</a> •
-        <a href="https://opencredit.org.in">opencredit.org.in</a>
-      </p>
-    </div>
+    <p>© 2025 OpenCredit Initiative • Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    <p>
+      <a href="https://github.com/opencredit">GitHub</a> • 
+      <a href="mailto:contact@opencredit.org.in">contact@opencredit.org.in</a>
+    </p>
   </footer>
+
+</div>
 
 </body>
 </html>
